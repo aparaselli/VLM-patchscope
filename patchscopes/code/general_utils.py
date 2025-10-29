@@ -23,7 +23,11 @@ import re
 
 import torch
 import transformers
-
+from transformers import AutoProcessor
+from transformers import (
+    AutoConfig,
+    LlavaNextProcessor, LlavaNextForConditionalGeneration,  # v1.6 path
+)
 
 class ModelAndTokenizer:
   """An object to hold a GPT-style language model and tokenizer."""
@@ -45,10 +49,10 @@ class ModelAndTokenizer:
       assert model_name is not None
       model = transformers.AutoModelForCausalLM.from_pretrained(
           model_name, low_cpu_mem_usage=low_cpu_mem_usage,
-          torch_dtype=torch_dtype
+          torch_dtype=torch_dtype, device_map="auto" #automatically put it on device
           )
-      if device is not None:
-        model.to(device)
+      #if device is not None: #remove bc i dont have enough space
+      #  model.to(device)
       set_requires_grad(False, model)
       model.eval()
     self.tokenizer = tokenizer
@@ -71,8 +75,11 @@ class ModelAndTokenizer:
         )
 
 
-def make_inputs(tokenizer, prompts, device="cuda"):
+def make_inputs(tokenizer, prompts, model=None, images=None, device="cuda"):
   """Prepare inputs to the model."""
+  if images is not None:
+    assert model is not None, "Must pass in model to make_inputs for multimodal inputs"
+    return model.make_inputs(prompts, images=images)
   token_lists = [tokenizer.encode(p) for p in prompts]
   maxlen = max(len(t) for t in token_lists)
   if "[PAD]" in tokenizer.all_special_tokens:
@@ -131,3 +138,60 @@ def set_requires_grad(requires_grad, *models):
       model.requires_grad = requires_grad
     else:
       assert False, "unknown type %r" % type(model)
+
+
+class LLaVAModelAndProcessor(ModelAndTokenizer): #LLAVA subclass - Athu 
+    """
+    LLaVA-specific subclass:
+      - loads LlavaForConditionalGeneration + AutoProcessor
+      - exposes tokenizer via processor.tokenizer (so your code keeps working)
+      - publishes layer_names for Vicuna decoder inside LLaVA
+    """
+    def __init__(self, model_name, low_cpu_mem_usage=False, torch_dtype=torch.float16,
+                 use_fast=True, device="cuda"):
+        assert LlavaNextForConditionalGeneration is not None, "Install transformers w/ LLaVA support."
+
+        # Load image processor
+        self.processor = LlavaNextProcessor.from_pretrained(model_name)
+        tokenizer = self.processor.tokenizer
+
+        model = LlavaNextForConditionalGeneration.from_pretrained(
+            model_name,
+            low_cpu_mem_usage=low_cpu_mem_usage,
+            torch_dtype=torch_dtype,
+            device_map="auto",
+        )
+        set_requires_grad(False, model)
+        model.eval()
+
+        # Initialize base class with our concrete model/tokenizer
+        super().__init__(model_name=model_name, model=model, tokenizer=tokenizer,
+                         low_cpu_mem_usage=low_cpu_mem_usage, torch_dtype=torch_dtype,
+                         use_fast=use_fast, device=device)
+
+        # Override layer discovery to point at the Vicuna decoder inside LLaVA
+        # (language_model -> model -> layers)
+        layers = self.model.language_model.model.layers
+        self.layer_names = [f"language_model.model.layers.{i}" for i in range(len(layers))]
+        self.num_layers = len(self.layer_names)
+
+    # Convenience: unified accessors for hook code
+    @property
+    def decoder_layers(self):
+        return self.model.language_model.model.layers
+
+    @property
+    def decoder_norm(self):
+        return self.model.language_model.model.norm
+
+    def make_inputs(self, prompts, images=None):
+        """
+        Multimodal-safe inputs:
+          - text-only (images=None): returns {input_ids, attention_mask}
+          - image+text: returns {input_ids, attention_mask, pixel_values}
+        """
+        if images is None:
+            batch = self.processor(text=prompts, return_tensors="pt", padding=False)
+        else:
+            batch = self.processor(text=prompts, images=images, return_tensors="pt", padding=False)
+        return {k: v.to(self.device) for k, v in batch.items()}

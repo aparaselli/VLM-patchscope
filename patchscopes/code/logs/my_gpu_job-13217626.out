@@ -1,0 +1,9 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 13217626
+##  Job Name : my_gpu_job
+##  Nodelist : gpu2009
+##      CPUs : 4
+##  Mem/Node : 65536 MB
+## Directory : /oscar/scratch/aparasel/interpretability/patchscopes/code
+##   Job Started : Wed Oct  8 17:32:54 EDT 2025
+###############################################################################

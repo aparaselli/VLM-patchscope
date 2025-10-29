@@ -1,0 +1,43 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 13225291
+##  Job Name : my_gpu_job
+##  Nodelist : gpu1402
+##      CPUs : 
+##  Mem/Node : 65536 MB
+## Directory : /oscar/scratch/aparasel/interpretability/patchscopes/code
+##   Job Started : Wed Oct  8 10:27:59 PM EDT 2025
+###############################################################################
+/users/aparasel/.conda/envs/patchscopes-llava/bin/python
+Python 3.10.13
+Wed Oct  8 22:28:01 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.129.03             Driver Version: 535.129.03   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA TITAN RTX               On  | 00000000:41:00.0 Off |                  N/A |
+| 40%   33C    P8              34W / 280W |     20MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A     29134      G   /usr/libexec/Xorg                            17MiB |
++---------------------------------------------------------------------------------------+
+(1000, 42)
+     image_id  ...                                         image_path
+0  000001.jpg  ...  /users/aparasel/scratch/temp_data/img_align_ce...
+1  000002.jpg  ...  /users/aparasel/scratch/temp_data/img_align_ce...
+2  000003.jpg  ...  /users/aparasel/scratch/temp_data/img_align_ce...
+3  000004.jpg  ...  /users/aparasel/scratch/temp_data/img_align_ce...
+4  000005.jpg  ...  /users/aparasel/scratch/temp_data/img_align_ce...
+
+[5 rows x 42 columns]
+Loading model 
+LLAVA Model loaded :)
+

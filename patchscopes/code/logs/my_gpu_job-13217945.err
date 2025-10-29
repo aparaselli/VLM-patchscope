@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/oscar/scratch/aparasel/interpretability/patchscopes/code/visual_entity_processing_llava.py", line 14, in <module>
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'

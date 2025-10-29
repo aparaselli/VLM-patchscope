@@ -154,6 +154,16 @@ def set_hs_patch_hooks_llama(
   #         for position_, _ in hs_patch_config[i]:
   #             assert position_ > 0
 
+
+
+  if hasattr(model, "language_model"):         # LLaVA
+    _root = model.language_model.model
+  else:                                        # Regular LM
+    _root = model.model
+
+  layers = _root.layers
+  final_norm = _root.norm
+    
   def patch_hs(name, position_hs, patch_input, generation_mode):
     def pre_hook(module, input):
       # (batch, sequence, hidden_state)
@@ -195,15 +205,15 @@ def set_hs_patch_hooks_llama(
     if patch_input:
       if module == "hs":
         hooks.append(
-            model.model.layers[i].register_forward_pre_hook(patch_hook)
+            layers[i].register_forward_pre_hook(patch_hook)
         )
       elif module == "mlp":
         hooks.append(
-            model.model.layers[i].mlp.register_forward_pre_hook(patch_hook)
+            layers[i].mlp.register_forward_pre_hook(patch_hook)
         )
       elif module == "attn":
         hooks.append(
-            model.model.layers[i].self_attn.register_forward_pre_hook(
+            layers[i].self_attn.register_forward_pre_hook(
                 patch_hook
             )
         )
@@ -214,9 +224,9 @@ def set_hs_patch_hooks_llama(
       # model, the final layer norm is not needed because it was already applied
       # (assuming that the representation for patching was obtained by
       # setting output_hidden_representations to True).
-      if skip_final_ln and i == len(model.model.layers) - 1 and module == "hs":
+      if skip_final_ln and i == len(layers) - 1 and module == "hs":
         hooks.append(
-            model.model.norm.register_forward_hook(
+            final_norm.register_forward_hook(
                 patch_hs(
                     f"patch_hs_{i}_skip_ln",
                     hs_patch_config[i],
@@ -227,14 +237,14 @@ def set_hs_patch_hooks_llama(
         )
       else:
         if module == "hs":
-          hooks.append(model.model.layers[i].register_forward_hook(patch_hook))
+          hooks.append(layers[i].register_forward_hook(patch_hook))
         elif module == "mlp":
           hooks.append(
-              model.model.layers[i].mlp.register_forward_hook(patch_hook)
+              layers[i].mlp.register_forward_hook(patch_hook)
           )
         elif module == "attn":
           hooks.append(
-              model.model.layers[i].self_attn.register_forward_hook(patch_hook)
+              layers[i].self_attn.register_forward_hook(patch_hook)
           )
         else:
           raise ValueError("Module %s not supported", module)
@@ -370,20 +380,46 @@ def inspect(
     max_gen_len=20,
     verbose=False,
     temperature=None,
+    image_source = None,
+    image_target = None,
+    selfIE = None,
 ):
   """Inspection via patching."""
   # adjust position_target to be absolute rather than relative
-  inp_target = make_inputs(mt.tokenizer, [prompt_target], mt.device)
+  if image_target is None:
+    inp_target = make_inputs(mt.tokenizer, [prompt_target], device=mt.device)
+  else:
+    inp_target = make_inputs(mt.tokenizer, [prompt_target], device=mt.device, model=mt, images=image_target)
+    
+  def _post_expanded_seq_len(inp):
+      with torch.no_grad():
+          out = mt.model(**{**inp, "output_hidden_states": True})
+      # embedding output (batch, seq_len, hidden) is hidden_states[0]
+      hs0 = out.hidden_states[0] if hasattr(out, "hidden_states") else out["hidden_states"][0]
+      return hs0.shape[1]
+    
   if position_target < 0:
-    position_target = len(inp_target["input_ids"][0]) + position_target
+    seq_len_target = _post_expanded_seq_len(inp_target)
+    position_target = seq_len_target + position_target
+    
 
   # first run the the model on prompt_patch and get all hidden states.
-  inp_source = make_inputs(mt.tokenizer, [prompt_source], mt.device)
+  if image_source is None:
+    inp_source = make_inputs(mt.tokenizer, [prompt_source], device=mt.device)
+  else:
+    inp_source = make_inputs(mt.tokenizer, [prompt_source], device=mt.device, model=mt, images=image_source)
   if verbose:
     print(
         "prompt_patch:",
         [mt.tokenizer.decode(x) for x in inp_source["input_ids"][0]],
     )
+    print(list(enumerate([mt.tokenizer.decode(x) for x in inp_target["input_ids"][0]])))
+
+
+  if hasattr(mt.model, "language_model"): #passed in model is LLAVA
+      _layers = mt.model.language_model.model.layers
+  else:
+      _layers = mt.model.model.layers
 
   hs_cache_ = []
   # We manually store intermediate states that the model API does not expose
@@ -393,31 +429,42 @@ def inspect(
     def store_mlp_hook(module, input, output):
       hs_cache_.append(output[0])
 
-    for layer in mt.model.model.layers:
+    for layer in _layers:
       store_hooks.append(layer.mlp.register_forward_hook(store_mlp_hook))
   elif module == "attn":
 
     def store_attn_hook(module, input, output):
       hs_cache_.append(output[0].squeeze())
 
-    for layer in mt.model.model.layers:
+    for layer in _layers:
       store_hooks.append(layer.self_attn.register_forward_hook(store_attn_hook))
 
   output = mt.model(**inp_source, output_hidden_states=True)
   if module == "hs":
-    hs_cache_ = [
+    hs_cache_ = [ #MAY NEED TO CHANGE TO .hidden_states???
         output["hidden_states"][layer + 1][0] for layer in range(mt.num_layers)
     ]
 
   remove_hooks(store_hooks)
   # now do a second run on prompt, while patching
   # a specific hidden state from the first run.
-  hs_patch_config = {
-      layer_target: [(
-          position_target,
-          hs_cache_[layer_source][position_source],
-      )]
-  }
+  if selfIE is not None:
+    positions_target = [position_target]
+    for i in range(selfIE-1): # if 5 add to inital specified position and next 4
+      positions_target.append(position_target + i + 1)
+    src_vec = hs_cache_[layer_source][position_source]  
+    hs_patch_config = {
+        layer_target: [
+            (pos, src_vec) for pos in positions_target
+        ]
+    }
+  else:
+    hs_patch_config = {
+        layer_target: [(
+            position_target,
+            hs_cache_[layer_source][position_source],
+        )]
+    }
 
   if layer_source == layer_target == mt.num_layers - 1:
     skip_final_ln = True
@@ -444,21 +491,20 @@ def inspect(
   if generation_mode:
     # Checking if should perform temperature sampling, to allow smoother
     # non-repeating long outputs.
+    gen_kwargs = dict(
+        input_ids=inp_target["input_ids"],
+        attention_mask=inp_target["attention_mask"],
+        max_new_tokens=len(inp_target["input_ids"][0]) + max_gen_len,
+        pad_token_id=mt.model.generation_config.eos_token_id,
+    )
+    if "pixel_values" in inp_target:
+        gen_kwargs["pixel_values"] = inp_target["pixel_values"]
+    if "image_sizes" in inp_target:                       
+      gen_kwargs["image_sizes"] = inp_target["image_sizes"]
     if temperature:
-      output_toks = mt.model.generate(
-          inp_target["input_ids"],
-          max_length=len(inp_target["input_ids"][0]) + max_gen_len,
-          pad_token_id=mt.model.generation_config.eos_token_id,
-          temperature=temperature,
-          do_sample=True,
-          top_k=0,
-      )[0][len(inp_target["input_ids"][0]) :]
-    else:
-      output_toks = mt.model.generate(
-          inp_target["input_ids"],
-          max_length=len(inp_target["input_ids"][0]) + max_gen_len,
-          pad_token_id=mt.model.generation_config.eos_token_id,
-      )[0][len(inp_target["input_ids"][0]) :]
+      gen_kwargs.update(dict(do_sample=True, temperature=temperature, top_k=0))
+
+    output_toks = mt.model.generate(**gen_kwargs)[0][len(inp_target["input_ids"][0]) :]
 
     output = mt.tokenizer.decode(output_toks)
     if verbose:

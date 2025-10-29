@@ -1,0 +1,505 @@
+image_id,image_path,prompt_source,prompt_target,position_source,token_from_source,inspect_layer0,inspect_layer1,inspect_layer2,inspect_layer3,inspect_layer4
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-34,",","1000 characters, 1000 words, 1000 sentences, 1000 ideas, 1000 palabras, 1000 ideas, 1000 palabras, 1000 ideas, 1000 ideas, 1000 ideas, 100","
+
+You wrote:
+
+“,
+
+”</s>","
+
+“I’m sorry, I don’t understand what you’re trying to say. Could you please rephrase or provide more context?”</s>","
+
+You started by saying that you’re not sure if you’re doing the right thing by not telling someone about a secret. You mentioned that you’ve been keeping this secret for a while and that it’s been weighing on your mind. You also said that you’re not sure if you should tell someone because you don’t want to","
+
+“I’m going to buy a new car, and I’m considering a few options. I’m looking for a reliable, fuel-efficient vehicle that has good safety ratings. I’m also interested in a car that has good resale value, so I can get my money back if I decide to sell it in a few years. I’"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-34,",","1000 characters, 1000 words, 1000 sentences, 1000 words, 1000 words, 1000 words, 1000 words, 1000 words, 1000 words, 1000 words, 1000 words","
+
+You wrote:
+
+“,
+
+”</s>","
+
+“I’m sorry, I don’t understand what you’re trying to say. Could you please rephrase or provide more context?”</s>","
+
+You started by saying that you’re not sure if you’re doing the right thing by not telling someone about a secret. You mentioned that you’ve been keeping this secret for a while and that it’s been weighing on your mind. You also said that you’re not sure if you should tell someone about it because you’re afraid","
+
+“I’m going to buy a new car, and I’m considering a few options. I’m looking for a reliable, fuel-efficient vehicle that has good safety ratings. I’m also interested in a car that has good resale value, so I can get my money back if I decide to sell it in a few years. I’"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-34,",","1000 characters, 1000 words, 1000 sentences, 100000000000000000000000000000000000000000000000000000","
+
+You wrote, “,,” which doesn’t seem to convey any specific information or question. If you have a question or need assistance, please feel free to ask, and I’ll be happy to help!</s>","
+
+“I’m sorry, I don’t understand what you’re trying to say. Could you please rephrase or provide more context?”</s>","
+
+You started by saying that you’re not sure if you’re doing the right thing by not telling someone about a secret. You mentioned that you’ve been keeping this secret for a while and that it’s been weighing on your mind. You also said that you’re not sure if you should tell someone about it because you’re afraid","
+
+“I’m going to buy a new car, and I’m considering a few options. I’m looking for a reliable, fuel-efficient vehicle that has good safety ratings. I’m also interested in a car that has good resale value, so I can get my money back if I decide to sell it in a few years. I’"
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-35,Black,"
+
+You asked if it’s possible to use a language model like GPT-3 to generate code. I said that it is possible, but it’s not as easy as just typing a command into a prompt. You would need to train the model on a large dataset of code, and even then, the generated code might not be correct or useful. Additionally","
+
+You wrote: BlackBlackBlack</s>","
+
+You wrote:
+
+BlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlack","
+
+You wrote:
+
+“BlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlack","
+
+You asked for a word that is commonly used to describe something that is very dark or black. The word you are looking for is ""black.""</s>"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-35,Black,"
+
+You asked if it’s possible to use a language model like GPT-3 to generate code. I said that it is possible, but it’s not as good as a human programmer. I also mentioned that there are open-source tools like GPT-3 Playground that allow you to experiment with GPT-3 to generate code snippets.","
+
+You wrote: BlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlack","
+
+You wrote:
+
+“BlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlack","
+
+You wrote:
+
+“BlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlack","
+
+You asked for a summary of the message, and I provided a summary of the colors mentioned in the message: black, white, and gray.</s>"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-35,Black,"
+
+You asked if it’s possible to use a language model like GPT-3 to generate code. I said that it is possible, but it’s not as easy as just typing a command into a prompt. You would need to train the model on a large dataset of code, and even then, the generated code might not be correct or useful. Additionally","
+
+You wrote: BlackBlackBlack</s>","
+
+You wrote:
+
+BlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlack","
+
+You wrote:
+
+BlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlack","
+
+You wrote:
+
+“BlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlackBlack"
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-36,{,"
+
+Your message is too long, please reload the conversation and send something shorter.</s>","
+
+You asked for a summary of the previous message, but there was no previous message to summarize. Please provide a message for me to summarize.</s>","
+
+You started by saying that you’re not sure if you’re doing the right thing by leaving your job. You mentioned that you’ve been feeling overwhelmed and stressed out, and that you’ve been struggling to keep up with your workload. You also mentioned that you’ve been feeling unappreciated and undervalued by","
+
+You asked if it’s possible to use a language model like GPT-3 to generate code and if there are any open-source tools or platforms to do this. I responded with a few options, including using GPT-3 directly, using a platform like Hugging Face’s Transformers, or using a code generation tool like Deep","
+
+You mentioned that you are working on a project related to the metaverse and are looking for ways to make it more accessible and user-friendly. You are interested in exploring different platforms and technologies that can help you achieve this goal. You also mentioned that you are open to collaborating with others who share similar interests and are working on similar projects.
+"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-36,{,"
+
+Your message is too long, please reload the conversation and send something shorter.</s>","
+
+You asked for a summary of the previous message, but there was no previous message to summarize. Please provide a message for me to summarize.</s>","
+
+You have a list of items that you want to accomplish or consider, and you’re trying to decide which one to focus on first. You’re considering the importance of each item and the potential impact it could have. You’re also considering the time and effort required for each item.
+
+You’re looking for advice on how to prioritize","
+
+You asked for a summary of the previous message, but there was no previous message to summarize. Please provide a message for me to summarize.</s>","
+
+You mentioned that you are working on a project related to the metaverse and are looking for ways to make it more accessible and user-friendly. You are interested in exploring different platforms and technologies that can help you achieve this goal. You also mentioned that you are open to collaborating with others who share similar interests and are working on similar projects.
+"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-36,{,"
+
+Your message is too long, please reload the conversation and send something shorter.</s>","
+
+You asked for a summary of the previous message, but there was no previous message to summarize. Please provide a message for me to summarize.</s>","
+
+You started by saying that you’re not sure if you’re doing the right thing by leaving your job. You mentioned that you’ve been feeling overwhelmed and stressed out, and that you’ve been struggling to keep up with your workload. You also mentioned that you’ve been feeling unappreciated and undervalued by","
+
+You mentioned that you are working on a project related to the metaverse and that you are looking for a way to create a virtual environment that can be experienced through a VR headset. You are interested in using Unreal Engine to create this environment, and you are looking for a way to integrate it with a VR headset. You also mentioned that you","
+
+You mentioned that you are working on a project related to the metaverse and are looking for ways to make it more accessible and user-friendly. You are interested in exploring different platforms and technologies that can help you achieve this goal. You also mentioned that you are open to collaborating with others who share similar interests and are working on similar projects.
+"
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-37,"
+","1. surely, I’m ready to summarseL</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-37,"
+","
+
+I’m sorry, I’m just not possible to summarse</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-37,"
+","
+
+I’m sorry, I’m sorry, I’m just not able to summarse, I’m not able to Sum, I’m not able to Sum, I’m not able to Sum, I’m Not Able to Sum, I’m Not, I’, I’, I’, I’, I’,","
+ “I’m sorry, I’m not sure what you’re asking. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>","
+ “I’m sorry, I’m not sure what you’re asking for. Could you please provide more context or clarify your question? I’m here to help if I can.”</s>"
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-38,<image>,"
+
+You are asking for a summary of the message you provided. Is that correct?</s>","
+
+You mentioned that you have a friend who is a doctor and that you are interested in the medical field. You asked if it is possible to become a doctor without going to medical school, and if there are any alternative paths to becoming a doctor.
+
+Please let me know if you have any further questions or if there’s anything else I can help you with","
+
+You mentioned that you have a friend who is a doctor and that she is interested in the field of psychedelic-assisted therapy. You asked if I have any information on this topic.
+
+Here’s a brief overview of psychedelic-assisted therapy:
+
+1. Psychedelic-assisted ther","
+
+You mentioned that you have a friend who is a doctor and that you are interested in learning more about the medical field. You asked if there are any specific areas within the medical field that you should focus on if you want to become a doctor. 
+
+Please let me know if you have any further questions or if there’s anything else I can help you","
+
+You’ve shared a photo of a person standing in front of a building with a sign that says ""BUILDING BLOCKS."" The person is wearing a black shirt and appears to be looking at the camera. The building has a modern design with a glass facade. The photo seems to be taken during the day under clear weather conditions.</s>"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-38,<image>,"
+
+You are asking for a summary of the message you provided. Is that correct?</s>","
+
+You mentioned that you have a friend who is a doctor and that you are interested in the medical field. You asked if it is possible to become a doctor without going to medical school, and if there are any alternative paths to becoming a doctor.
+
+Please let me know if you have any further questions or if there’s anything else I can help you with","
+
+You mentioned that you have a friend who is a doctor and that she is interested in the field of psychedelic-assisted therapy. You asked if I have any information on this topic.
+
+Here’s a brief overview of psychedelic-assisted therapy:
+
+1. Psychedelic-assisted ther","
+
+You mentioned that you have a friend who is a doctor and that you are interested in learning more about the medical field. You asked if there are any specific areas within the medical field that you should focus on if you want to become a doctor.
+
+Please let me know if you have any further questions or if there’s anything else I can help you with","
+
+You’ve shared a photo of a beautiful sunset with a vibrant orange sky and a silhouette of a person standing on a beach. The person appears to be looking out towards the horizon, possibly enjoying the view or waiting for someone. The photo captures a serene and peaceful moment, with the warm colors of the sunset contrast"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-38,<image>,"
+
+You are asking for a summary of the message you provided. Is that correct?</s>","
+
+You mentioned that you have a friend who is a doctor and that you are interested in the medical field. You asked if it is possible to become a doctor without going to medical school, and if there are any alternative paths to becoming a doctor.
+
+Please let me know if you have any further questions or if there’s anything else I can help you with","
+
+You mentioned that you have a friend who is a doctor and that she is interested in the field of psychedelic-assisted therapy. You asked if I have any information on this topic.
+
+Here’s a brief overview of psychedelic-assisted therapy:
+
+1. Psychedelic-assisted ther","
+
+You mentioned that you have a friend who is a doctor and that you are interested in learning more about the medical field. You asked if there are any specific areas within the medical field that you should focus on if you want to become a doctor. 
+
+I responded by saying that becoming a doctor requires a strong foundation in biology, chemistry, and","
+
+You’ve shared a photo of a person standing in front of a building with a sign that says ""BUILDING BLOCKS."" The person is wearing a black shirt and appears to be looking at the camera. The building has a modern design with a glass facade. The photo seems to be taken during the day under clear weather conditions.</s>"
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-39,,"
+
+You have a list of items that you want to accomplish or consider, and you’re asking for advice on how to prioritize them. You’re considering different factors such as urgency, importance, and feasibility. You’re also looking for advice on how to balance your time and energy between these tasks.
+
+If you have any specific questions","
+
+You’re asking for a summary of the message you sent in the previous message. Is that correct?</s>","
+
+You’re asking for a summary of the message you sent. Is that correct?</s>","
+
+You’re comparing two different things, which are not directly related to each other. On the left, you’re talking about a person who is not interested in the stock market, and on the right, you’re discussing a stock market index. 
+
+The person on the left is not interested in the stock market, which means they don’","
+
+You’ve shared a photo of a beautiful sunset with a vibrant orange sky and a silhouette of a person standing on a beach. The person appears to be looking out towards the horizon, possibly admiring the view or contemplating something. The photo captures a serene and peaceful moment, with the warm colors of the sunset"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-39,,"
+
+You’ve shared a photo of a person standing in front of a building with a sign that says “BUILDING UNDER CONSTRUCTION.” The person is wearing a hard hat, which is commonly worn by construction workers to protect their heads from debris and other hazards on the job site. The photo seems to be taken during","
+
+You’ve shared a photo of a person standing in front of a building with a sign that says “BUILDING UNDER CONSTRUCTION.” The person is wearing a hard hat, which is commonly worn by construction workers to protect their heads from debris and other hazards on the job site. The photo seems to be taken during","
+
+You’ve shared a photo of a person standing in front of a building with a sign that says “BUILDING UNDER CONSTRUCTION.” The person is wearing a hat and appears to be looking at the camera. You’ve asked if it’s possible to determine the location of the building from the photo.</s>","
+
+You’ve shared a photo of a person standing in front of a building with a sign that says “BUILDING UNDER CONSTRUCTION.” The person is wearing a hat and appears to be looking at the camera. The photo seems to be taken during the daytime.</s>","
+
+You’ve shared a photo of a person standing in front of a building with a sign that says “BUILDING UNDER CONSTRUCTION.” The person is wearing a hard hat, which is commonly worn by construction workers to protect their heads from debris and other hazards on the job site. The photo seems to be taken during"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-39,,"
+
+You’re asking for a summary of the message you sent in the previous message. Is that correct?</s>","
+
+You’re asking for a summary of the key points in the image you provided. The image appears to be a collage of various photos, possibly related to a project or a collection of memories. However, without more context or a clearer view of the content, it’s difficult to provide a detailed summary. If you can provide a clearer image or more","
+
+You’ve shared a photo of a beautiful sunset with a vibrant orange sky and a silhouette of a person standing on a beach. The person appears to be looking out towards the horizon, possibly enjoying the view or waiting for someone. The photo captures a serene and peaceful moment, with the warm colors of the sunset contrast","
+
+You’re asking for a summary of the key points in the image you provided. The image appears to be a collage of various photos, but without more context or specific details, it’s difficult to provide a detailed summary. However, I can tell you that the image includes a mix of different subjects, such as people, animals, and possibly some objects","
+
+You’ve shared a photo of a beautiful sunset with a vibrant orange sky and a silhouette of a person standing on a beach. The person appears to be looking out towards the horizon, possibly admiring the view or contemplating something. The photo captures a serene and peaceful moment, with the warm colors of the sunset"
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-40,image_token1,"
+
+You’re a hot girl who wants to get laid. You’re looking for a guy who’s not afraid to take charge and show you a good time. You’re open to trying new things and are looking for someone who’s confident and knows what they want. You’re not interested in playing games or dealing with guys who aren’","
+
+You’re a hot girl who wants to get laid. You’re looking for a guy who’s not afraid to take charge and show you a good time. You’re open to trying new things and are looking for someone who’s confident and knows what they want. You’re not interested in playing games or dealing with guys who aren’","
+
+You’re a woman who is interested in meeting new people and potentially starting a relationship with someone. You’re looking for someone who is confident, intelligent, and has a sense of humor. You’re also interested in someone who is outgoing and enjoys socializing. You’re not interested in someone who is too serious or has a negative attitude","
+
+You’re a woman who is feeling confident and empowered, and you want to share that with others. You believe that confidence and empowerment are key to success, and you want to inspire others to feel the same way. You’re also interested in fashion and beauty, and you want to incorporate those interests into your message.
+
+","
+
+You’re a woman who is feeling confident and empowered, and you’re looking for a man who shares your values and beliefs. You want someone who is intelligent, ambitious, and has a strong sense of purpose. You’re not interested in someone who is lazy or unmotivated. You value honesty and authenticity"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-40,image_token1,"
+
+“I have red hair and I’m wearing a red shirt. I’m also wearing a red headband. I have a red beanie on my head. I’m standing in front of a red building. The sky is red. The ground is red. There are no people around me. It’s a very red day.”","
+
+“I have red hair and I’m wearing a red shirt. I’m also wearing a red headband. I’m standing in front of a red building. The sky is red and there are red trees in the background. It’s a very red day.”</s>","
+
+“I have red hair and I’m wearing a red shirt. I’m also wearing a red headband. I’m standing in front of a red building. The sky is red and there are red trees in the background. It’s a very red day.”</s>","
+
+“I have red hair and I’m wearing a red shirt. I’m standing in front of a building with a red roof. The sky is blue and there are no clouds in sight. It’s a clear day.” 
+
+Is there anything else you would like me to summarize?</s>","
+
+You have a red-haired girl with a ponytail. She is wearing a black and white dress. Is that correct?</s>"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-40,image_token1,"
+
+“I’m sorry, I didn’t understand your question. Could you please rephrase it or provide more context? I’m here to help if I can.”</s>","
+
+“I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach.","
+
+“I’m a software engineer and I’m interested in learning more about machine learning. I’m looking for a book that will teach me the basics of machine learning, including topics such as regression, classification, clustering, and deep learning. I also want a book that is easy to understand and accessible to beginners. Can you recommend a good","
+
+“I’m going to the bathroom. I’ll be back in a little bit. If you need anything, just let me know.”</s>","
+
+“I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach."
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-41,image_token2,"
+
+You’re a hot girl who wants to get laid. You’re looking for a guy who’s not afraid to take charge and show you a good time. You’re interested in meeting up with someone who’s confident and knows what they want. You’re not interested in playing games or dealing with guys who are too shy or in","
+
+You’re a hot girl who wants to get laid. You’re looking for a guy who’s not afraid to take charge and show you a good time. You’re open to trying new things and are looking for someone who’s confident and knows what they want. You’re not interested in playing games or dealing with guys who aren’","
+
+You’re a hot girl who’s looking for a hot guy to hook up with. You’re interested in casual sex and you’re open to meeting new people. You’re not looking for anything serious, just some fun and excitement. You’re confident and you know what you want. You’re also interested in meeting people who","
+
+You’re a hot girl who’s looking for a hot guy to hook up with. You’re interested in casual sex and you’re open to meeting new people. You’re not looking for anything serious, just some fun and excitement. You’re confident in your appearance and you’re not afraid to show it. You’re","
+
+You’re a hot girl showing off your toned abs and you want me to notice. You’re wearing a bikini and you’re flexing your muscles, possibly to show off your strength or to attract attention. You’re confident and you want me to appreciate your physique.</s>"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-41,image_token2,"
+ Redditor with red hair asks if it’s possible to have a baby with red hair.  Answer: Yes, it is possible to have a baby with red hair if both parents have red hair.  Red hair is a genetic trait that is passed down from parents to their offspring.  If both parents have red hair, there is a 2","
+ Red hair, red hair, red hair. 
+
+Is there anything specific you would like to know or discuss about red hair?</s>","
+ Red hair, red hair, red hair. 
+
+Is there anything specific you would like to know or discuss about red hair?</s>","
+ Red hair, red hair, red hair. 
+
+Is there anything specific you would like to know or discuss about red hair?</s>","
+
+You have a red-haired friend who is interested in learning to code. They are looking for a beginner-friendly programming language to start with. You recommended Python as a good option for beginners because it is easy to learn and has a lot of resources available. You also mentioned that Python is versatile and can be used for many different types of projects"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-41,image_token2,"
+
+“I’m sorry, I don’t understand what you’re trying to say. Can you please rephrase or provide more context?”</s>","
+
+“I’m sorry, I don’t understand what you’re trying to say. Can you please rephrase or provide more context?”</s>","
+
+“I’m sorry, I didn’t understand your question. Could you please rephrase it or provide more context? I’m here to help if I can.”</s>","
+
+“I’m sorry, I don’t understand what you’re trying to say. Can you please rephrase or provide more context?”</s>","
+
+“I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach. I’m going to the beach."
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-42,image_token3,"
+
+You’re asking for a summary of the message you sent. Is that correct?</s>","
+
+You’re a woman who is interested in meeting new people and possibly starting a relationship with someone. You’re looking for someone who is confident, intelligent, and has a sense of humor. You’re also interested in someone who is interested in music and has a passion for life. You’re open to dating someone who is a few years older","
+
+You’re a woman who is interested in meeting new people and making friends. You’re looking for someone who is open-minded, adventurous, and has a sense of humor. You enjoy spending time outdoors and trying new things. You’re also interested in meeting someone who is interested in personal growth and self-improvement","
+
+You’re a woman who is interested in meeting new people and potentially starting a relationship with someone. You’re looking for someone who is confident, ambitious, and has a strong sense of self. You’re also interested in someone who is intelligent and has a good sense of humor. You’re open to dating someone who is a few","
+
+You’re looking for a way to convert a PDF file to a Word document. You’ve tried using Adobe Acrobat, but it’s not working for you. You’re looking for a free alternative to Adobe Acrobat that can convert PDF files to Word documents. Is that correct?</s>"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-42,image_token3,"
+
+“I have a question about the meaning of life, and I was wondering if you could help me understand it. I’m not sure what the meaning of life is, and I was hoping you could provide some insight or guidance.”</s>","
+
+“I have a question about the meaning of life, and I was wondering if you could help me understand it. I’m not sure what the meaning of life is, and I was hoping you could provide some insight or guidance.”</s>","
+
+“I have a question about the meaning of life, and I was wondering if you could help me understand it.”</s>","
+
+You have a girlfriend who is a gamer and she has a crush on a male streamer. You want to know if it’s possible for her to have a crush on the streamer and if there are any signs that she might be interested in him. 
+
+Based on your message, it seems that your girlfriend is interested","
+
+You have a girlfriend with long hair, and you’re thinking about cutting it. You want to know if it’s okay to cut her hair, and if you should tell her about your plans. 
+
+It’s important to communicate with your girlfriend about your decision, as it could affect your relationship. It’s also important to consider"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-42,image_token3,"
+
+“I’m sorry, I didn’t understand your question. Could you please rephrase it or provide more context? I’m here to help if I can.”</s>","
+
+“I’m sorry, I didn’t understand your question. Could you please rephrase it or provide more context? I’m here to help if I can.”</s>","
+
+“I’m a software engineer and I’m interested in learning more about machine learning. I’m looking for a book that will teach me the basics of machine learning, preferably one that is easy to understand and accessible to someone with no prior experience in the field. I’m also interested in learning about the practical applications of machine learning, so","
+
+“I’m sorry, I didn’t understand your question. Could you please rephrase it or provide more context? I’m here to help if I can.”</s>","
+
+“I’m sorry, I didn’t understand your question. Could you please rephrase it or provide more context? I’m here to help if I can.”</s>"
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-43,image_token4,"
+
+You’re asking for a summary of the message you sent. Is that correct?</s>","
+
+You’re asking for a summary of the message I’m currently writing. Is that correct?</s>","
+
+You’re a guy who’s interested in dating a girl who has a tattoo on her shoulder. You’ve asked me for advice on how to approach her and start a conversation. You’re concerned about the tattoo and want to know if it’s a deal-breaker.
+
+Here’s my advice:","
+
+You’re a woman who is interested in learning how to code. You’ve been trying to learn on your own, but you’re finding it challenging. You’re looking for a mentor or a program that can help you learn how to code. You’re interested in learning how to code for the web, and you’re open to","
+
+You have a friend who is a doctor and she is interested in learning more about blockchain technology and its potential applications in healthcare. She has asked you to recommend some resources for her to learn more about this topic. 
+
+Here are some resources you can recommend:
+
+1. Books:
+* ""Blockchain Revolution"" by Don and Alex T"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-43,image_token4,"
+ Red hair, red hair, red hair. 
+
+Is there anything specific you would like to know or discuss about red hair?</s>","
+ Red hair, red hair, red hair. 
+
+Is there anything specific you would like to know or discuss about red hair?</s>","
+ Red hair, red hair, red hair. 
+
+Is there anything specific you would like to know or discuss about red hair?</s>","
+ Red hair, red hair, red hair. 
+
+Is there anything specific you would like to know or discuss about red hair?</s>","
+ Red hair, red hair, red hair. 
+
+Is there anything specific you would like to know or discuss about red hair?</s>"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-43,image_token4,"
+
+You are asking for a summary of the message you sent. Is that correct?</s>","
+
+You are asking for a summary of the message you sent. Is that correct?</s>","
+
+You are asking for a summary of the message you sent. Is that correct?</s>","
+
+You are asking for a summary of the message you sent. Is that correct?</s>","
+
+You are asking if it is possible to use a language model like GPT-3 to generate code and if there are any open-source tools or platforms to do this.</s>"
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-44,image_token5,"
+
+You’re asking for a summary of the message you sent earlier. Is that correct?</s>","
+
+You’re asking for a summary of the message you sent earlier. Is that correct?</s>","
+
+You’re asking for a summary of the message you sent earlier. Is that correct?</s>","
+
+You have a friend who is a doctor and is interested in the field of psychedelic-assisted therapy. They are looking for resources and information on how to get started in this field, including training programs, research opportunities, and professional organizations. They are also interested in learning more about the legal and ethical considerations involved in this type of","
+
+You have a friend who is a doctor and is interested in the field of psychedelic-assisted therapy. They are looking for resources and information on how to get started in this field, including training programs, research opportunities, and professional organizations. They are also interested in learning more about the legal and ethical considerations involved in this type of"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-44,image_token5,"
+
+“I’m feeling a bit overwhelmed with my workload and I’m not sure how to prioritize my tasks. I have a lot of deadlines coming up and I’m struggling to stay on top of everything. Can you help me figure out how to manage my time better and prioritize my tasks effectively?”</s>","
+
+“I’m feeling a bit overwhelmed with my workload and I’m not sure how to prioritize my tasks. I have a lot of deadlines coming up and I’m struggling to stay on top of everything. Can you help me figure out how to manage my time better and prioritize my tasks effectively?”
+
+If","
+
+“I’m a software engineer and I’m interested in learning more about machine learning. I’m looking for a book that covers the basics of machine learning, including linear regression, logistic regression, and neural networks. I also want a book that is easy to understand and accessible to someone with a background in programming. Can you recommend a book that","
+
+“I’m a software engineer and I’m interested in learning more about machine learning. I’m looking for a book that covers the basics of machine learning, including linear regression, logistic regression, and neural networks. I also want a book that is easy to understand and accessible to someone with a background in programming. Can you recommend a book that","
+
+“I’m a content creator and I want to know if it’s possible to use AI to generate content for my blog. Can you give me some tips on how to do this? I’m interested in using AI to help me create content for my blog, but I’m not sure where to start.”</s>"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-44,image_token5,"
+
+You mentioned that you have a friend who is a doctor and that you are interested in learning more about the medical field. You asked if it is possible to become a doctor without going to medical school and if there are any other careers in the medical field that you could explore. 
+
+I responded by saying that it is possible to become a doctor without","
+
+You mentioned that you have a friend who is a doctor and that you are interested in learning more about the medical field. You asked if it is possible to become a doctor without going to medical school and if there are any other careers in the medical field that you could explore. 
+
+I responded by saying that it is possible to become a doctor without","
+
+You mentioned that you have a friend who is a doctor and that you are interested in learning more about the medical field. You asked if it is possible to become a doctor without going to medical school and if there are any other careers in the medical field that you could explore. 
+
+I responded by saying that it is possible to become a doctor without","
+
+You mentioned that you have a friend who is a doctor and that you are interested in learning more about the medical field. You asked if it is possible to become a doctor without going to medical school and if there are any other careers in the medical field that you could explore. 
+
+I responded by saying that it is possible to become a doctor without","
+
+You mentioned that you have a friend who is a doctor and that you are interested in learning more about the medical field. You asked if it is possible to become a doctor without going to medical school and if there are any other careers in the medical field that you could explore. 
+
+I responded by saying that it is possible to become a doctor without"
+000001.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000001.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-45,image_token6,"
+
+“I’m a software engineer and I’m interested in learning more about blockchain technology. I’m looking for a good book to read that will teach me the basics of blockchain and how it works. Do you have any recommendations? I’m also interested in learning about smart contracts and how they can be used in the real world","
+
+“I’m a software engineer and I’m interested in learning more about blockchain technology. I’m looking for a good book to read that will teach me the basics of blockchain and how it works. Do you have any recommendations? I’m also interested in learning about smart contracts and how they can be used in the real world","
+
+“I’m a software engineer and I’m interested in learning more about blockchain technology. I’m looking for a good book to read that will teach me the basics of blockchain and how it works. Do you have any recommendations? I’m also interested in learning about smart contracts and how they can be used in the real world","
+
+“I’m a software engineer and I’m interested in learning more about blockchain technology. I’m looking for a good book to read that will teach me the basics of blockchain and how it works. Do you have any recommendations? I’m also interested in learning about smart contracts and how they can be used in the real world","
+
+“I’m a software engineer and I’m interested in learning more about blockchain technology. I’m looking for a good book to read that will help me understand the basics of blockchain and how it works. Do you have any recommendations? I’m also interested in learning about smart contracts and how they can be used in the real"
+000002.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000002.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-45,image_token6,"
+
+“I’m a software engineer and I’m interested in learning more about machine learning. I’m looking for a book that covers the basics of machine learning, including linear regression, logistic regression, and neural networks. I also want a book that is easy to understand and accessible to someone with a background in programming. Can you recommend a book that","
+
+“I’m a software engineer and I’m interested in learning more about machine learning. I’m looking for a book that covers the basics of machine learning, including linear regression, logistic regression, and neural networks. I also want a book that is easy to understand and accessible to someone with a background in programming. Can you recommend a book that","
+
+“I’m a software engineer and I’m interested in learning more about machine learning. I’m looking for a book that covers the basics of machine learning, including linear regression, logistic regression, and neural networks. I also want a book that is easy to understand and accessible to someone with a background in programming. Can you recommend a book that","
+
+“I’m a software engineer and I’m interested in learning more about machine learning. I’m looking for a book that covers the basics of machine learning, including linear regression, logistic regression, and neural networks. I also want a book that is easy to understand and accessible to someone with a background in programming. Can you recommend a book that","
+
+“I’m a software engineer and I’m interested in learning more about machine learning. I’m looking for a book that covers the basics of machine learning, including linear regression, logistic regression, and neural networks. I also want a book that is easy to understand and accessible to someone with a background in programming. Can you recommend a book that"
+000003.jpg,/users/aparasel/scratch/temp_data/img_align_celeba/000003.jpg,"USER: <image>
+{Black, Blond, Brown, Gray, Red, NONE} Out of the listed hair colors which one best describes the person in the image? ASSISTANT:","USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: ",-45,image_token6,"
+
+You’re asking if it’s possible to use a language model like GPT-3 to generate code and if there are any open-source tools or platforms to do this.</s>","
+
+You’re asking if it’s possible to use a language model like GPT-3 to generate code and if there are any open-source tools or platforms to do this.</s>","
+
+You’re asking if it’s possible to use a language model like GPT-3 to generate code and if there are any open-source tools or platforms to do this.</s>","
+
+You’re asking if it’s possible to use a language model like GPT-3 to generate code and if there are any open-source tools or platforms to do this.</s>","
+
+You’re asking for a summary of the message you sent. Is that correct?</s>"

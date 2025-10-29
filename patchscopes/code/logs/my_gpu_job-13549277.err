@@ -1,0 +1,13 @@
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.89s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.84s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.69s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.73s/it]
+Some kwargs in processor config are unused and will not have any effect: patch_size, image_token, num_additional_image_tokens, vision_feature_select_strategy. 
+Resolving data files:   0%|          | 0/61 [00:00<?, ?it/s]Resolving data files:  11%|█▏        | 7/61 [00:00<00:01, 38.35it/s]Resolving data files: 100%|██████████| 61/61 [00:00<00:00, 270.41it/s]
+/users/aparasel/.conda/envs/patchscopes-llava/lib/python3.10/site-packages/datasets/table.py:1421: FutureWarning: promote has been superseded by promote_options='default'.
+  table = cls._concat_blocks(blocks, axis=0)
+/oscar/scratch/aparasel/bias-search/eval_bias-2.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  filtered_df["occupation"] = filtered_df["counterfactual_set"].apply(extract_occupation)
+The `seen_tokens` attribute is deprecated and will be removed in v4.41. Use the `cache_position` model input instead.
+

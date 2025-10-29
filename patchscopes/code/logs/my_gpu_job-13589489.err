@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/oscar/scratch/aparasel/bias-search/eval_bias_qwen.py", line 42, in <module>
+    from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
+ImportError: cannot import name 'Qwen3VLForConditionalGeneration' from 'transformers' (/users/aparasel/.conda/envs/patchscopes-llava/lib/python3.10/site-packages/transformers/__init__.py)
+
+ERROR conda.cli.main_run:execute(47): `conda run python /oscar/scratch/aparasel/bias-search/eval_bias_qwen.py` failed. (See above for error)

@@ -1,0 +1,35 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 13218131
+##  Job Name : run_visual_job.sbatch
+##  Nodelist : gpu2007
+##      CPUs : 1
+##   Mem/CPU : 2800 MB
+## Directory : /oscar/scratch/aparasel/interpretability/patchscopes/code
+##   Job Started : Wed Oct  8 18:06:53 EDT 2025
+###############################################################################
+/oscar/runtime/software/external/miniconda3/23.11.0/bin/python
+Python 3.10.9
+Wed Oct  8 18:06:54 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.129.03             Driver Version: 535.129.03   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Quadro RTX 6000                On  | 00000000:3F:00.0 Off |                  Off |
+| 34%   36C    P8              33W / 260W |     23MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A     29758      G   /usr/libexec/Xorg                            20MiB |
++---------------------------------------------------------------------------------------+
+Traceback (most recent call last):
+  File "/oscar/scratch/aparasel/interpretability/patchscopes/code/visual_entity_processing_llava.py", line 14, in <module>
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'

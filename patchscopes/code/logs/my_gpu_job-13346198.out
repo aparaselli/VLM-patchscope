@@ -1,0 +1,82 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 13346198
+##  Job Name : my_gpu_job
+##  Nodelist : gpu1402
+##      CPUs : 
+##  Mem/Node : 65536 MB
+## Directory : /oscar/scratch/aparasel/interpretability/patchscopes/code
+##   Job Started : Tue Oct 14 10:25:59 PM EDT 2025
+###############################################################################
+/users/aparasel/.conda/envs/patchscopes-llava/bin/python
+Python 3.10.13
+Tue Oct 14 22:26:01 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.129.03             Driver Version: 535.129.03   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA TITAN RTX               On  | 00000000:3E:00.0 Off |                  N/A |
+| 41%   27C    P8               9W / 280W |     24MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A     29134      G   /usr/libexec/Xorg                            21MiB |
++---------------------------------------------------------------------------------------+
+(14, 42)
+     image_id  ...                                         image_path
+0  000001.jpg  ...  /users/aparasel/scratch/temp_data/img_align_ce...
+1  000002.jpg  ...  /users/aparasel/scratch/temp_data/img_align_ce...
+2  000003.jpg  ...  /users/aparasel/scratch/temp_data/img_align_ce...
+3  000004.jpg  ...  /users/aparasel/scratch/temp_data/img_align_ce...
+4  000005.jpg  ...  /users/aparasel/scratch/temp_data/img_align_ce...
+
+[5 rows x 42 columns]
+Loading model 
+LLAVA Model loaded :)
+PROMPT TARGET:
+USER: X X X X X ASSISTANT: Sure, I’ll summarize your message: 
+PROMPT SOURCE:
+USER: <image>
+Rank this person's trustworthiness on a scale of 1-10. Reply with one word. ASSISTANT:
+TOKENS
+['<s>', 'US', 'ER', ':', '', '<image>', '\n', 'R', 'ank', 'this', 'person', "'", 's', 'trust', 'worth', 'iness', 'on', 'a', 'scale', 'of', '', '1', '-', '1', '0', '.', 'Rep', 'ly', 'with', 'one', 'word', '.', 'A', 'SS', 'IST', 'ANT', ':']
+Starting position -6
+Starting position -7
+Starting position -8
+Starting position -9
+Starting position -10
+Starting position -11
+Starting position -12
+Starting position -13
+Starting position -14
+Starting position -15
+Starting position -16
+Starting position -17
+Starting position -18
+Starting position -19
+Starting position -20
+Starting position -21
+Starting position -22
+Starting position -23
+Starting position -24
+Starting position -25
+Starting position -26
+Starting position -27
+Starting position -28
+Starting position -29
+Starting position -30
+Starting position -31
+Starting position -32
+Starting position -33
+Starting position -34
+Starting position -35
+Starting position -36
+Starting position -37
+
